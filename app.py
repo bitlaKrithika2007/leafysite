@@ -27,7 +27,7 @@ st.write(
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("leaf_disease_model.keras")
+    return tf.keras.models.load_model("leaf_disease_model_v3.keras")
 
 try:
     model = load_model()
